@@ -1,0 +1,148 @@
+@charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;400&display=swap');
+
+:root {
+    --color: #15273F;
+    --color1:#0D1A2D;
+    --color2:#13F2DC;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: var(--color1);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 11px;
+}
+
+.conteudo{
+    background-color: var(--color);
+    color: #ffffff;
+    box-shadow: 1px 1px 8px var(--color2);
+
+    width: 350px;
+    height: 590px;
+    display: flexbox;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+
+.conteudo-texto{
+    color: #ffffff5d;
+}
+
+h1, p{
+    padding-left: 25px;
+    margin-right: 10px;
+}
+
+p{
+    font-size: 18px;
+}
+
+
+.img-nft{
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+.img-nft:hover{
+    cursor: pointer;
+    background-color: #13F2DC;
+    filter: opacity(0.5) drop-shadow(0 0 0 #00ffe5);
+}
+
+.conteudo-nft-preco{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-top: -10px;
+}
+
+h1:hover{
+    color: var(--color2);
+    cursor: pointer;
+}
+
+.moeda-0{
+    color: var(--color2);
+}
+
+.dias{
+    color: #ffffff5d;
+}
+
+.moeda{
+    width: 10px;
+    margin-left: 0px;
+    margin-top: 0;
+}
+
+.relogio{
+    width: 16px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.foto-criador{
+    border-color: #ffffff5d;
+    background: 49px #ffffff;
+
+    width: 40px;
+    border-radius: 20px;
+    padding: 1px;
+    margin-left: -15px;
+}
+
+.info-criador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.nome-criador{
+   margin-top: 35px;
+   color: #ffffff5d;
+}
+
+.linha{
+    border-top: thick solid #ffffff5d;
+    margin-left: 27px;
+    margin-right: 27px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+span{
+    color: #ffffff;
+}
+
+span:hover{
+    color: var(--color2);
+    cursor: pointer;
+}
+
+.referencias{
+    color:var(--color2);
+    text-align: center;
+    margin-top: 12px;
+    font-size: 13px
+}
+
+.links{
+    color: #00ffe5;
+    padding: 3px;
+}
+
+.links:hover{
+    background-color: var(--color);
+    text-decoration: none;
+    border-radius: 5px;
+}
