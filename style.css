@@ -146,3 +146,9 @@ span:hover{
     text-decoration: none;
     border-radius: 5px;
 }
+
+@media (max-width: 500px){
+    .referencias{
+        margin-top: 70px;   
+    }
+}
